@@ -1,4 +1,4 @@
-public class Persona  {
+public class Persona {
     private String nombre;
     private Integer edad;
     private String fechaNacimiento;
@@ -44,4 +44,6 @@ public class Persona  {
     public void mensaje(){
         System.out.println("Mi nombre es: " + this.nombre + " , Mi edad es: " + this.edad);
     }
+
+
 }
