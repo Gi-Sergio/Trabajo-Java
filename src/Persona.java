@@ -1,4 +1,4 @@
-public class Persona {
+public class Persona implements Trabajador {
     private String nombre;
     private Integer edad;
     private String fechaNacimiento;
@@ -43,6 +43,10 @@ public class Persona {
     }
     public void mensaje(){
         System.out.println("Mi nombre es: " + this.nombre + " , Mi edad es: " + this.edad);
+    }
+
+    public void realizarTarea(){
+        System.out.println("Realizando tarea Laboral");
     }
 
 
